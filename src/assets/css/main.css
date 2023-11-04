@@ -1,0 +1,206 @@
+.mine_container {
+  margin-left: 110px;
+  margin-right: 110px;
+}
+
+#header_home .header_home_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px;
+}
+#header_home .header_home_item .header_logo {
+  position: relative;
+}
+#header_home .header_home_item .header_logo .logo_item_pacpac {
+  position: absolute;
+  bottom: -10px;
+  left: -10px;
+}
+#header_home .header_home_item .header_logo .logo_item_dot {
+  position: absolute;
+  bottom: 2px;
+  right: -7px;
+}
+#header_home .header_home_item .header_home_ul {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  margin-right: 365px;
+}
+#header_home .header_home_item .header_home_ul .header_home_ul_item {
+  list-style: none;
+  margin: 0 5px;
+}
+#header_home .header_home_item .header_home_ul .header_home_ul_item a {
+  text-decoration: none;
+  color: #1E1F4B;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+#main_section .main_section_digitalProducts {
+  margin-top: 110px;
+}
+#main_section .main_section_digitalProducts .main_section_digitalProducts__leftSideItem .main_slogan_title__box {
+  position: relative;
+}
+#main_section .main_section_digitalProducts .main_section_digitalProducts__leftSideItem .main_slogan_title__box .ellipse_left__top {
+  left: -17px;
+  position: absolute;
+  top: -16px;
+}
+#main_section .main_section_digitalProducts .main_section_digitalProducts__leftSideItem .main_slogan_title__box .ellipse_left__bottom {
+  left: -17px;
+  position: absolute;
+  bottom: -16px;
+}
+#main_section .main_section_digitalProducts .main_section_digitalProducts__leftSideItem .main_slogan_title__box .ellipse_right__top {
+  right: -17px;
+  position: absolute;
+  top: -16px;
+}
+#main_section .main_section_digitalProducts .main_section_digitalProducts__leftSideItem .main_slogan_title__box .ellipse_right__bottom {
+  right: -17px;
+  position: absolute;
+  bottom: -16px;
+}
+#main_section .main_section_digitalProducts .main_section_digitalProducts__leftSideItem .digitalProducts_paragraph {
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  margin-top: 40px;
+  /* 180% */
+}
+#main_section .main_section_digitalProducts .main_section_digitalProducts__leftSideItem .main_slogan_title__box {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px;
+  /* 166.667% */
+  letter-spacing: 0.2px;
+  color: #706FE5;
+  border: 8px solid #706FE5;
+  padding: 10px;
+}
+#main_section .main_section_digitalProducts .main_section_digitalProducts__leftSideItem .btnForm_button {
+  color: #fff;
+  background-color: #706FE5;
+  height: 40px;
+  border-radius: 12px;
+  box-shadow: none;
+  padding: 6px 40px;
+  text-align: center;
+  border: none;
+}
+#main_section .main_section_digitalProducts .main_section_digitalProducts__leftSideItem .btnForm_button p {
+  width: 100px;
+}
+#main_section .main_section_digitalProducts .main_section_digitalProducts__leftSideItem .digitalProducts_btnForm {
+  display: flex;
+  align-items: center;
+}
+#main_section .main_section_digitalProducts .main_section_digitalProducts__leftSideItem .digitalProducts_btnForm .introductionVideo {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+#main_section .main_section_digitalProducts .main_section_digitalProducts__leftSideItem .digitalProducts_btnForm .introductionVideo button {
+  gap: 10px;
+  background-color: #fff;
+  border: none;
+}
+#main_section .main_section_digitalProducts .main_section_digitalProducts__leftSideItem .digitalProducts_btnForm .introductionVideo button img {
+  width: 48px;
+  height: 48px;
+}
+#main_section .main_section_digitalProducts .main_section_digitalProducts__leftSideItem .digitalProducts_btnForm .introductionVideo p {
+  width: 200px;
+  margin-bottom: 0px;
+}
+#main_section .main_section_digitalProducts .main_section_digitalProducts__rightSideItem {
+  position: relative;
+}
+#main_section .main_section_digitalProducts .main_section_digitalProducts__rightSideItem .img {
+  background-image: url("/src/assets/img/Artboard 1 2.png");
+  position: absolute;
+  width: 450px;
+  height: 438px;
+  top: -35px;
+  left: 0px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+#main_section .main_section_digitalProducts .main_section_digitalProducts__rightSideItem .rightSide_img_border {
+  top: 100px;
+  left: 68px;
+  position: absolute;
+  width: 331px;
+  height: 331px;
+  flex-shrink: 0;
+  border-radius: 531px;
+  background: rgba(244, 120, 207, 0.232);
+  border: 6px solid #706FE5;
+}
+#main_section .main_section_digitalProducts .main_section_digitalProducts__rightSideItem .employment {
+  left: 163px;
+  background-color: #fff;
+  border-radius: 9px;
+  box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  position: absolute;
+  top: 350px;
+  z-index: 1;
+  width: 239px;
+  height: 131px;
+  flex-shrink: 0;
+  text-align: center;
+  margin-right: 50px;
+}
+#main_section .main_section_digitalProducts .main_section_digitalProducts__rightSideItem .employment .employee {
+  margin-left: -25px;
+  margin-right: 2px;
+}
+#main_section .main_section_companies {
+  background-color: rgba(112, 111, 229, 0.0196078431);
+  text-align: center;
+  margin-top: 210px;
+}
+#main_section .main_section_companies .main_section_companies__title {
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  /* 120% */
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+}
+#main_section .main_section_companies .main_section_companies__logos img {
+  padding: 30px;
+}
+#main_section .main_section_worldClassProducts .worldClassProducts_title span {
+  color: #1E1F4B;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  /* 130% */
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+}
+#main_section .main_section_worldClassProducts .worldClassProducts_title p {
+  color: #2E3E5C;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  /* 180% */
+}/*# sourceMappingURL=main.css.map */

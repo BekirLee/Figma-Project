@@ -1,0 +1,261 @@
+#header {
+    &_home {
+        .header_home_item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 18px;
+
+            .header_logo {
+                position: relative;
+
+                .logo_item_pacpac {
+                    position: absolute;
+                    bottom: -10px;
+                    left: -10px;
+                }
+
+                .logo_item_dot {
+                    position: absolute;
+                    bottom: 2px;
+                    right: -7px;
+                }
+            }
+
+            .header_home_ul {
+                display: flex;
+                align-items: center;
+                margin-bottom: 0px;
+                margin-right: 365px;
+
+                .header_home_ul_item {
+                    list-style: none;
+                    margin: 0 5px;
+
+                    a {
+                        text-decoration: none;
+                        color: $mainTextColor;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 28px;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+
+#main {
+    &_section {
+
+        .main_section_digitalProducts {
+            margin-top: 110px;
+
+
+            .main_section_digitalProducts__leftSideItem {
+                .main_slogan_title__box {
+                    position: relative;
+
+                    .ellipse_left__top {
+                        left: -17px;
+                        position: absolute;
+                        top: -16px;
+                    }
+
+                    .ellipse_left__bottom {
+                        left: -17px;
+                        position: absolute;
+                        bottom: -16px;
+                    }
+
+                    .ellipse_right__top {
+                        right: -17px;
+                        position: absolute;
+                        top: -16px;
+                    }
+
+                    .ellipse_right__bottom {
+                        right: -17px;
+                        position: absolute;
+                        bottom: -16px;
+                    }
+                }
+
+                .digitalProducts_paragraph {
+                    font-family: Poppins;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 36px;
+                    margin-top: 40px;
+                    /* 180% */
+                }
+
+                .main_slogan_title__box {
+                    font-size: 60px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 100px;
+                    /* 166.667% */
+                    letter-spacing: 0.2px;
+                    color: $mainPinkColor;
+                    border: 8px solid $mainPinkColor;
+                    // position: relative;
+                    padding: 10px;
+                }
+
+                .btnForm_button {
+                    color: $white;
+                    background-color: $mainPinkColor;
+                    height: 40px;
+                    border-radius: 12px;
+                    box-shadow: none;
+                    padding: 6px 40px;
+                    text-align: center;
+                    border: none;
+
+                    p {
+                        width: 100px;
+                    }
+                }
+
+                .digitalProducts_btnForm {
+                    display: flex;
+                    align-items: center;
+
+                    .introductionVideo {
+                        display: flex;
+                        align-items: center;
+                        margin-left: 40px;
+
+                        button {
+                            gap: 10px;
+                            background-color: $white;
+                            border: none;
+
+                            img {
+                                width: 48px;
+                                height: 48px;
+                            }
+                        }
+
+                        p {
+                            width: 200px;
+                            margin-bottom: 0px;
+                        }
+                    }
+                }
+            }
+
+            .main_section_digitalProducts__rightSideItem {
+                position: relative;
+
+                .img {
+                    background-image: url('/src/assets/img/Artboard\ 1\ 2.png');
+                    position: absolute;
+                    width: 450px;
+                    height: 438px;
+                    top: -35px;
+                    left: 0px;
+                    flex-shrink: 0;
+                    z-index: 1;
+                }
+
+                .rightSide_img_border {
+                    top: 100px;
+                    left: 68px;
+                    position: absolute;
+                    width: 331px;
+                    height: 331px;
+                    flex-shrink: 0;
+                    border-radius: 531px;
+                    background: rgba(244, 120, 207, 0.232);
+                    border: 6px solid #706FE5;
+
+                }
+
+                .employment {
+                    left: 163px;
+                    background-color: $white;
+                    border-radius: 9px;
+                    box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.10);
+                    padding: 10px;
+                    position: absolute;
+                    top: 350px;
+                    z-index: 1;
+                    width: 239px;
+                    height: 131px;
+                    flex-shrink: 0;
+                    text-align: center;
+                    margin-right: 50px;
+
+                    // .employees {
+
+
+                    .employee {
+                        margin-left: -25px;
+                        margin-right: 2px;
+
+                    }
+
+                    // }
+                }
+            }
+        }
+
+        .main_section_companies {
+            background-color: $companiesBgColor;
+            text-align: center;
+            margin-top: 210px;
+
+            .main_section_companies__title {
+                text-align: center;
+                font-family: Poppins;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 24px;
+                /* 120% */
+                letter-spacing: 0.2px;
+                text-transform: capitalize;
+                // color: blue;
+            }
+
+            .main_section_companies__logos {
+                img {
+                    padding: 30px;
+                }
+            }
+        }
+
+        .main_section_worldClassProducts {
+            .worldClassProducts_title {
+                span {
+                    color: $mainTextColor;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 52px;
+                    /* 130% */
+                    letter-spacing: 0.2px;
+                    text-transform: capitalize;
+                }
+
+                p {
+                    color: $mainTextColor2;
+                    font-family: Poppins;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 36px;
+                    /* 180% */
+                }
+            }
+        }
+    }
+
+}
