@@ -232,6 +232,7 @@
         }
 
         .main_section_worldClassProducts {
+            background-color: rgba(112, 111, 229, 0.02);
 
             .worldClassProducts_title {
                 padding: 0px 32px 0px 32px;
@@ -255,23 +256,24 @@
                     font-style: normal;
                     font-weight: 400;
                     line-height: 36px;
+                    margin-bottom: 30px;
                     /* 180% */
                 }
             }
 
             .products_leftSide {
                 .product {
-                    padding: 10px;
+                    padding: 10px 10px 0px 10px;
 
                     .product_photo {
 
                         img {
-                            border-radius: 10px;
+                            border-radius: 30px;
                             width: 100%;
                         }
                     }
 
-                    padding: 20px;
+                    // padding: 20px;
 
                     .product_title {
                         color: $mainTextColor;
@@ -321,7 +323,7 @@
 
                         .product_photo {
                             img {
-                                border-radius: 10px;
+                                border-radius: 20px;
                             }
                         }
 
@@ -341,6 +343,57 @@
                             width: 263px;
                         }
                     }
+                }
+            }
+        }
+
+        .main_section_comments {
+            .main_section_comments__title {
+                position: relative;
+                margin-top: 200px;
+                color: $mainTextColor3;
+                text-align: center;
+                font-family: Poppins;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal;
+                text-transform: capitalize;
+
+                p {
+                    position: absolute;
+                    width: 280px;
+                    left: 50%;
+                    top: -30px;
+                    transform: translate(-50%, -50%);
+                }
+            }
+
+            .main_section_comments__info {
+                margin-top: 80px;
+
+
+                p {
+                    color: #03014C;
+                    /* text-align: center; */
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-style: normal;
+                    line-height: 60px;
+                    opacity: 0.5;
+                    width: 900px;
+                    transform: translate(20%, 50%);
+                    text-align: center;
+                    height: 214px;
+                }
+            }
+
+            .main_section_comments__photos_users {
+                text-align: center;
+                margin-top: 120px;
+
+                img {
+                    padding: 30px;
                 }
             }
         }
