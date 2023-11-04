@@ -309,10 +309,37 @@
   text-align: center;
   height: 214px;
 }
-#main_section .main_section_comments .main_section_comments__photos_users {
+#main_section .main_section_comments .main_section_comments__photos .main_section_comments__photos_users {
   text-align: center;
   margin-top: 120px;
 }
-#main_section .main_section_comments .main_section_comments__photos_users img {
+#main_section .main_section_comments .main_section_comments__photos .main_section_comments__photos_users .user {
   padding: 30px;
+}
+#main_section .main_section_comments .main_section_comments__photos .main_section_comments__photos_users .users {
+  border-radius: 86.111px;
+  background: url("/src/assets/img/Ellipse 33.svg");
+  width: 86.111px;
+  height: 86.111px;
+  flex-shrink: 0;
+}
+#main_section .main_section_comments .main_section_comments__photos .user_name {
+  text-align: center;
+  color: #1E1F4B;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#main_section .main_section_comments .main_section_comments__photos .user_name p {
+  color: #2E3E5C;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  opacity: 0.8;
+  padding: 5px;
 }/*# sourceMappingURL=main.css.map */

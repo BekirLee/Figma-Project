@@ -388,14 +388,52 @@
                 }
             }
 
-            .main_section_comments__photos_users {
-                text-align: center;
-                margin-top: 120px;
+            .main_section_comments__photos {
 
-                img {
-                    padding: 30px;
+                .main_section_comments__photos_users {
+                    text-align: center;
+                    margin-top: 120px;
+
+                    .user {
+                        padding: 30px;
+                    }
+
+                    .users {
+                        // padding: 10px;
+                        border-radius: 86.111px;
+                        background: url('/src/assets/img/Ellipse\ 33.svg');
+                        width: 86.111px;
+                        height: 86.111px;
+                        flex-shrink: 0;
+                        // stroke-width: 5px;
+                        // stroke: var( #706FE5);
+                    }
+                }
+
+                .user_name {
+                    text-align: center;
+                    // text-align: center;
+                    color: $mainTextColor;
+                    font-family: Poppins;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+
+                    p {
+                        color: $mainTextColor2;
+                        text-align: center;
+                        font-family: Poppins;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        opacity: .8;
+                        padding: 5px;
+                    }
                 }
             }
+
         }
     }
 
