@@ -234,6 +234,8 @@
         .main_section_worldClassProducts {
 
             .worldClassProducts_title {
+                padding: 0px 32px 0px 32px;
+
                 span {
                     color: $mainTextColor;
                     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -264,6 +266,7 @@
                     .product_photo {
 
                         img {
+                            border-radius: 10px;
                             width: 100%;
                         }
                     }
@@ -281,6 +284,7 @@
                     }
 
                     .product_info {
+                        margin-top: 10px;
                         font-family: Poppins;
                         font-size: 14px;
                         font-style: normal;
@@ -290,6 +294,16 @@
                         /* 185.714% */
                     }
 
+                    .product_relase {
+                        margin-top: 10px;
+                        font-family: Poppins;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 26px;
+                        /* 185.714% */
+                        opacity: .8;
+                    }
 
                 }
             }
@@ -304,6 +318,24 @@
 
                     .product {
                         padding: 10px;
+
+                        .product_photo {
+                            img {
+                                border-radius: 10px;
+                            }
+                        }
+
+                        .product_relase {
+                            margin-top: 10px;
+                            font-family: Poppins;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 26px;
+                            /* 185.714% */
+                            opacity: 0.8;
+
+                        }
 
                         .product_title {
                             width: 263px;

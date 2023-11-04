@@ -184,6 +184,9 @@
 #main_section .main_section_companies .main_section_companies__logos img {
   padding: 30px;
 }
+#main_section .main_section_worldClassProducts .worldClassProducts_title {
+  padding: 0px 32px 0px 32px;
+}
 #main_section .main_section_worldClassProducts .worldClassProducts_title span {
   color: #1E1F4B;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -209,6 +212,7 @@
   padding: 20px;
 }
 #main_section .main_section_worldClassProducts .products_leftSide .product .product_photo img {
+  border-radius: 10px;
   width: 100%;
 }
 #main_section .main_section_worldClassProducts .products_leftSide .product .product_title {
@@ -221,6 +225,7 @@
   /* 116.667% */
 }
 #main_section .main_section_worldClassProducts .products_leftSide .product .product_info {
+  margin-top: 10px;
   font-family: Poppins;
   font-size: 14px;
   font-style: normal;
@@ -228,6 +233,16 @@
   width: 480px;
   line-height: 26px;
   /* 185.714% */
+}
+#main_section .main_section_worldClassProducts .products_leftSide .product .product_relase {
+  margin-top: 10px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  /* 185.714% */
+  opacity: 0.8;
 }
 #main_section .main_section_worldClassProducts .products_rightSide {
   padding: 0px;
@@ -239,6 +254,19 @@
 }
 #main_section .main_section_worldClassProducts .products_rightSide .products_rightSide_items .product {
   padding: 10px;
+}
+#main_section .main_section_worldClassProducts .products_rightSide .products_rightSide_items .product .product_photo img {
+  border-radius: 10px;
+}
+#main_section .main_section_worldClassProducts .products_rightSide .products_rightSide_items .product .product_relase {
+  margin-top: 10px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  /* 185.714% */
+  opacity: 0.8;
 }
 #main_section .main_section_worldClassProducts .products_rightSide .products_rightSide_items .product .product_title {
   width: 263px;
