@@ -517,7 +517,7 @@
 
 #footer_main {
     // width: 1440px;
-    height: 420px;
+    height: 450px;
     flex-shrink: 0;
     background-color: $textColor;
 
@@ -594,14 +594,22 @@
 
         .footer_menu_links {
             display: flex;
+            padding: 0px;
+            margin: 0px;
 
             li {
                 list-style: none;
-                padding: 6px;
+                margin-right: 40px;
 
                 a {
                     text-decoration: none;
                     color: $white;
+                    font-family: Poppins;
+                    opacity: .75;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 20px;
                 }
             }
         }
@@ -622,5 +630,17 @@
                 }
             }
         }
+    }
+
+    .rights {
+        margin-top: 50px;
+        color: $white;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        /* 142.857% */
     }
 }
