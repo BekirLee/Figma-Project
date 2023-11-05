@@ -382,7 +382,7 @@
                     line-height: 60px;
                     opacity: 0.5;
                     width: 900px;
-                    transform: translate(20%, 50%);
+                    transform: translate(10%, 50%);
                     text-align: center;
                     height: 214px;
                 }
@@ -435,6 +435,192 @@
             }
 
         }
+
+        .main_section_contact {
+            .main_section_contact_leftSide {
+                .contact_main__info {
+                    color: $mainTextColor4 ;
+                    font-family: Poppins;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 36px;
+                    opacity: 0.75;
+                    width: 457px;
+                    /* 180% */
+                }
+
+                .contact_main__title {
+                    color: $mainTextColor;
+
+                    font-family: Poppins;
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 52px;
+                    /* 130% */
+                    letter-spacing: 0.2px;
+                    text-transform: capitalize;
+                }
+
+                .form-group {
+                    position: relative;
+
+                    img {
+                        position: absolute;
+                        top: 15px;
+                        left: 25px;
+                    }
+
+                    input {
+                        width: 460px;
+                        height: 60px;
+                        flex-shrink: 0;
+                        // opacity: 0.1;
+                        // background-color: $mainPinkColor;
+                    }
+                }
+            }
+
+            .contact_rightSide_items {
+
+                .contact_item {
+                    padding: 15px;
+
+                    .contact_info {
+                        color: $mainTextColor2;
+                        font-family: Poppins;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 28px;
+                        /* 175% */
+                        opacity: 0.8;
+                    }
+
+                    .contact_title {
+                        color: $mainTextColor;
+                        font-family: Poppins;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 28px;
+                        /* 140% */
+                    }
+                }
+            }
+        }
+
     }
 
+}
+
+#footer_main {
+    // width: 1440px;
+    height: 420px;
+    flex-shrink: 0;
+    background-color: $textColor;
+
+    .footer-items {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 80px 0px 80px 0px;
+
+        .footer-items__links {
+
+            .header_logo {
+                color: $white;
+                position: relative;
+
+                .logo_item_pacpac {
+                    position: absolute;
+                    bottom: -10px;
+                    left: -10px;
+                }
+
+                .logo_item_dot {
+                    position: absolute;
+                    bottom: 2px;
+                    right: -7px;
+                }
+            }
+        }
+
+        .footer-items__menu {
+            .footer_list {
+                display: flex;
+                margin: 0px;
+
+                li {
+                    list-style: none;
+                    width: 48px;
+                    height: 48px;
+                    flex-shrink: 0;
+                    border-radius: 2000px;
+                    background-color: $mainPinkColor;
+                    margin-left: 15px;
+
+                    a {
+                        padding: 11px;
+                        font-size: 30px;
+                        text-decoration: none;
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer_line {
+        // margin-top: 40px;
+        border-top: 1px solid $white;
+    }
+
+    .footer_company {
+        color: $white;
+        // font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 40px 0px 30px 0px;
+    }
+
+    .footer_menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .footer_menu_links {
+            display: flex;
+
+            li {
+                list-style: none;
+                padding: 6px;
+
+                a {
+                    text-decoration: none;
+                    color: $white;
+                }
+            }
+        }
+
+        .footer_contact {
+            .btnForm_button {
+                color: $white;
+                background-color: $mainPinkColor;
+                height: 40px;
+                border-radius: 12px;
+                box-shadow: none;
+                padding: 6px 40px;
+                text-align: center;
+                border: none;
+
+                p {
+                    width: 100px;
+                }
+            }
+        }
+    }
 }
