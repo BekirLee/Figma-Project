@@ -1,0 +1,13 @@
+@media(max-width:768px) {
+
+    #navbar {
+        position: relative;
+
+        .navbar_item {
+            position: absolute;
+            top: 50%;
+            left: 340px;
+            transform: translate(-50%, -50%);
+        }
+    }
+}
