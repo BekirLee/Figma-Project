@@ -78,4 +78,34 @@
         }
     }
 
+    .main_section_comments {
+        margin-left: 0px !important;
+
+        .main_section_comments__title {
+            p {
+                left: 44% !important;
+            }
+        }
+
+        .main_section_comments__info {
+            p {
+                width: 471px !important;
+
+            }
+        }
+
+        .main_section_comments__photos {
+            margin-top: 200px;
+
+            .main_section_comments__photos_users {
+                text-align: left !important;
+
+            }
+
+            .user_name {
+                margin-right: 75px !important;
+            }
+        }
+    }
+
 }
