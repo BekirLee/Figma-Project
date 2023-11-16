@@ -108,4 +108,20 @@
         }
     }
 
+    .main_section_contact {
+        margin-left: 0 !important;
+
+        .main_section_contact_leftSide {
+            width: 80% !important;
+            margin-left: 30px;
+        }
+
+        .main_section_contact_rightSide {
+            margin-top: 50px !important;
+            width: 85% !important;
+            text-align: center !important;
+
+        }
+    }
+
 }

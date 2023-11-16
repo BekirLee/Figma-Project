@@ -632,4 +632,16 @@
   .main_section_comments .main_section_comments__photos .user_name {
     margin-right: 75px !important;
   }
+  .main_section_contact {
+    margin-left: 0 !important;
+  }
+  .main_section_contact .main_section_contact_leftSide {
+    width: 80% !important;
+    margin-left: 30px;
+  }
+  .main_section_contact .main_section_contact_rightSide {
+    margin-top: 50px !important;
+    width: 85% !important;
+    text-align: center !important;
+  }
 }/*# sourceMappingURL=main.css.map */
