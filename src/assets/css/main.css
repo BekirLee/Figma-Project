@@ -569,11 +569,15 @@
     width: 68px;
   }
   .main_section_digitalProducts {
+    margin-left: 45px !important;
     margin-top: 65px !important;
   }
   .main_section_digitalProducts .main_section_digitalProducts__leftSideItem {
     display: grid !important;
     grid-template-columns: repeat(1, 1fr);
+  }
+  .main_section_digitalProducts .main_section_digitalProducts__leftSideItem .main_slogan {
+    width: 590px !important;
   }
   .main_section_digitalProducts .middleCollum {
     display: none !important;
@@ -581,5 +585,33 @@
   .main_section_digitalProducts .main_section_digitalProducts__rightSideItem {
     flex: none;
     width: 100%;
+  }
+  .main_section_companies {
+    margin-right: 310px !important;
+    margin-top: 610px !important;
+  }
+  .main_section_worldClassProducts {
+    margin-left: 8px !important;
+    margin-right: 125px !important;
+  }
+  .main_section_worldClassProducts .worldClassProducts_title {
+    width: 550px !important;
+    padding: 20px !important;
+  }
+  .main_section_worldClassProducts .row .products_leftSide {
+    width: 90% !important;
+    flex: 0 !important;
+  }
+  .main_section_worldClassProducts .row .products_rightSide {
+    margin-left: 20px !important;
+    padding: 0 !important;
+    width: 100% !important;
+  }
+  .main_section_worldClassProducts .row .products_rightSide .row {
+    align-items: center;
+  }
+  .main_section_worldClassProducts .row .products_rightSide .row .products_rightSide_items {
+    width: 100% !important;
+    flex: 0 !important;
   }
 }/*# sourceMappingURL=main.css.map */

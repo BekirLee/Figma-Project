@@ -19,12 +19,16 @@
     }
 
     .main_section_digitalProducts {
-
+        margin-left: 45px !important;
         margin-top: 65px !important;
 
         .main_section_digitalProducts__leftSideItem {
             display: grid !important;
             grid-template-columns: repeat(1, 1fr);
+
+            .main_slogan {
+                width: 590px !important;
+            }
         }
 
         .middleCollum {
@@ -34,6 +38,43 @@
         .main_section_digitalProducts__rightSideItem {
             flex: none;
             width: 100%;
+        }
+    }
+
+    .main_section_companies {
+        margin-right: 310px !important;
+        margin-top: 610px !important;
+    }
+
+    .main_section_worldClassProducts {
+        margin-left: 8px !important;
+        margin-right: 125px !important;
+
+        .worldClassProducts_title {
+            width: 550px !important;
+            padding: 20px !important;
+        }
+
+        .row {
+            .products_leftSide {
+                width: 90% !important;
+                flex: 0 !important;
+            }
+
+            .products_rightSide {
+                margin-left: 20px !important;
+                padding: 0 !important;
+                width: 100% !important;
+
+                .row {
+                    align-items: center;
+
+                    .products_rightSide_items {
+                        width: 100% !important;
+                        flex: 0 !important;
+                    }
+                }
+            }
         }
     }
 
