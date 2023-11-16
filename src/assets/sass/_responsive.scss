@@ -42,7 +42,7 @@
     }
 
     .main_section_companies {
-        margin-right: 310px !important;
+        margin-right: 217px !important;
         margin-top: 610px !important;
     }
 
@@ -57,13 +57,13 @@
 
         .row {
             .products_leftSide {
+                padding: 51px 51px 0px 51px;
                 width: 90% !important;
-                flex: 0 !important;
             }
 
             .products_rightSide {
                 margin-left: 20px !important;
-                padding: 0 !important;
+                padding: 51px !important;
                 width: 100% !important;
 
                 .row {
@@ -79,7 +79,7 @@
     }
 
     .main_section_comments {
-        margin-left: 0px !important;
+        margin-left: 70px !important;
 
         .main_section_comments__title {
             p {
@@ -103,24 +103,48 @@
             }
 
             .user_name {
-                margin-right: 75px !important;
+                // margin-right: 75px !important;
             }
         }
     }
 
     .main_section_contact {
-        margin-left: 0 !important;
+        margin-left: 12% !important;
 
         .main_section_contact_leftSide {
-            width: 80% !important;
+            width: 90% !important;
             margin-left: 30px;
         }
 
         .main_section_contact_rightSide {
             margin-top: 50px !important;
             width: 85% !important;
-            text-align: center !important;
+            text-align: center !important;  
 
+        }
+    }
+
+    #footer_main {
+        width: 88% !important;
+        height: 100% !important;
+
+        .footer-items {
+            // padding: 60px !important;
+
+            .footer-items__links {}
+
+        }
+
+        .footer-items__menu {
+            // .footer-list {
+            //     display: block !important;
+            // }
+        }
+
+        .footer_menu {
+            .footer_menu_links {
+                display: block !important;
+            }
         }
     }
 
