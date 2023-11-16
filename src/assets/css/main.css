@@ -562,7 +562,24 @@
   #navbar .navbar_item {
     position: absolute;
     top: 50%;
-    left: 340px;
+    left: 75%;
     transform: translate(-50%, -50%);
+  }
+  #navbar .navbar_item .header_home_ul .header_home_ul_item {
+    width: 68px;
+  }
+  .main_section_digitalProducts {
+    margin-top: 65px !important;
+  }
+  .main_section_digitalProducts .main_section_digitalProducts__leftSideItem {
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .main_section_digitalProducts .middleCollum {
+    display: none !important;
+  }
+  .main_section_digitalProducts .main_section_digitalProducts__rightSideItem {
+    flex: none;
+    width: 100%;
   }
 }/*# sourceMappingURL=main.css.map */
